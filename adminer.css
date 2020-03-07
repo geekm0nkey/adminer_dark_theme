@@ -12,7 +12,6 @@ Icons from http://FlatIcon.com:
 "Down arrow" by Alfredo Hernandez
 "Forbidden Mark" by Pavel Kozlov
 "Search" by Freepik
-"update to dark" by geekm0nkey
 
 Background from "All Work and No Play", http://thenewcode.com/1008/SVG-Movie-Backgrounds-Andys-Room-and-Overlook-Hotel
 */
@@ -20,6 +19,7 @@ html {
 	height: 100%;
 }
 body {
+	color: #c0c0c0;
 	width: 100%;
 	min-height: 100%;
 	display: flex;
@@ -59,7 +59,7 @@ label {
 	white-space: nowrap;
 }
 .sqlarea {
-	background: #fff;
+	background: #ccc;
 	border: thin solid rgba(65, 101, 138, 0.3) !important;
 	width: auto !important;
 }
