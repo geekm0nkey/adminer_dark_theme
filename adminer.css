@@ -79,6 +79,9 @@ input[type="button"] {
 	margin-right: 0;
 	color: #fff;
 }
+.edit {
+	color:#000000;
+}
 .error,
 .error b {
 	background: #ae1010;
@@ -134,6 +137,12 @@ thead a:visited:focus,
 .message p > a:link:focus,
 .message p > a:visited:focus {
 	color: #f39561;
+}
+.odd tr{
+	background-color: #c0c0c0;
+}
+td {
+	color: #000;
 }
 code.jush-sql {
 	display: inline-block;
@@ -281,6 +290,9 @@ thead td {
 	background: #414073;
 	color: #fff;
 }
+tr {
+	color: #333;
+}
 thead th {
 	text-align: left;
 	font-weight: normal;
@@ -316,6 +328,7 @@ thead td {
 .column a:focus {
 	background-color: #ec5f12;
 }
+
 tbody tr:nth-child(even) td {
 	background: #909090;
 }
