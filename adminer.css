@@ -19,7 +19,7 @@ html {
 	height: 100%;
 }
 body {
-	color: #c0c0c0;
+	color: #777;
 	width: 100%;
 	min-height: 100%;
 	display: flex;
@@ -80,7 +80,7 @@ input[type="button"] {
 	color: #fff;
 }
 .edit {
-	color:#000000;
+	color:#000;
 }
 .error,
 .error b {
@@ -139,6 +139,9 @@ thead a:visited:focus,
 	color: #f39561;
 }
 .odd tr{
+	background-color: #c0c0c0;
+}
+.odd td{
 	background-color: #c0c0c0;
 }
 td {
